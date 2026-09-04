@@ -4,16 +4,16 @@
     "name": "Collection Image Generator",
     "overview": "Automatically generates collage images for collections without images",
     "description": "A Jellyfin plugin that automatically generates collage images for collections without images.",
-    "owner": "johnpc",
+    "owner": "dumb-kid10",
     "category": "Metadata",
     "versions": [
       {
-        "version": "0.0.0.31",
-        "changelog": "See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-collection-image-generator/releases/tag/0.0.0.31)",
+        "version": "0.0.0.1",
+        "changelog": "See the full changelog at [GitHub](https://github.com/dumb-kid10/jellyfin-plugin-collection-image-generator/releases/tag/0.0.0.1)",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-collection-image-generator/releases/download/0.0.0.31/collection-image-generator-0.0.0.31.zip",
-        "checksum": "9ffbd871976e1cc794ff2489ca2bfde0",
-        "timestamp": "2026-06-15T13:33:10Z"
+        "sourceUrl": "https://github.com/dumb-kid10/jellyfin-plugin-collection-image-generator/releases/download/0.0.0.1/collection-image-generator-0.0.0.1.zip",
+        "checksum": "65feb59d80a401e661982690e7dfaaba",
+        "timestamp": "2026-09-04T20:31:01Z"
       }
     ]
   }
