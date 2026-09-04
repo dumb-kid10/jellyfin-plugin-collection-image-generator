@@ -45,7 +45,7 @@ namespace Jellyfin.Plugin.CollectionImageGenerator.ImageProcessor
 
                 const int targetWidth = 1000;
                 const int targetHeight = 1500;
-                const int padding = 20;
+                const int padding = 0;
 
                 using var outputImage = new Image<Rgba32>(targetWidth, targetHeight);
 
