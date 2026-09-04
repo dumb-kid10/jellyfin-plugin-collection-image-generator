@@ -86,14 +86,14 @@ namespace Jellyfin.Plugin.CollectionImageGenerator.ImageProcessor
 
                         outputImage.Mutate(ctx => ctx.DrawImage(posterImage, new Point(posX, posY), 1f));
 
-                        var borderColor = GetBorderColor(backgroundColor);
+                        /* var borderColor = GetBorderColor(backgroundColor);
                         var borderThickness = 6f;
                         var borderRect = new RectangleF(
                             posX - (borderThickness / 2),
                             posY - (borderThickness / 2),
                             posterImage.Width + borderThickness,
                             posterImage.Height + borderThickness);
-                        outputImage.Mutate(ctx => ctx.Draw(borderColor, borderThickness, borderRect));
+                        outputImage.Mutate(ctx => ctx.Draw(borderColor, borderThickness, borderRect)); */
                     }
                     catch (Exception ex)
                     {
