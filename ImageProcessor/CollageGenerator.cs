@@ -75,7 +75,7 @@ namespace Jellyfin.Plugin.CollectionImageGenerator.ImageProcessor
                         posterImage.Mutate(x => x.Resize(new ResizeOptions
                         {
                             Size = new Size(gridWidth, gridHeight),
-                            Mode = ResizeMode.Max,
+                            Mode = ResizeMode.Crop,
                             Position = AnchorPositionMode.Center,
                         }));
 
